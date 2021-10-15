@@ -25,14 +25,6 @@ const App: React.FC<MapStatePropsType & MapDispatchPropsType> = React.memo(
       return <Preloader />;
     }
 
-    let sliderSettings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-    };
-
     return (
       <div className={styles.App}>
         <img alt="App-logo" className={styles.AppLogo} src={logo} />
