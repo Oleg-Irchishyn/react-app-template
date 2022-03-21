@@ -19,6 +19,7 @@
     "@types/redux-form": "^8.3.2",
     "@types/redux-thunk": "^2.1.0",
     "@types/slick-carousel": "^1.6.37",
+    "@types/uuid": "^8.3.4",
     "axios": "^0.21.4",
     "classnames": "^2.3.1",
     "font-awesome": "^4.7.0",
