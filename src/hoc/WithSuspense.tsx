@@ -5,7 +5,7 @@ export function withSuspense<WCP>(WrappedComponent: React.ComponentType<WCP>) {
   return (props: WCP) => {
     return (
       <Suspense fallback={<Preloader />}>
-        <WrappedComponent {...props} />
+        <WrappedComponent {...(props as WCP)} />
       </Suspense>
     );
   };
